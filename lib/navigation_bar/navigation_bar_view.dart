@@ -10,7 +10,7 @@ class NavigationBarView extends StatelessWidget
   @override
   Widget build(BuildContext context)
   {
-    return DesctopMobileViewBuilder(mobileView: mobileView, desctopView: NavigationDesctopView());
+    return DesctopMobileViewBuilder(mobileView: NavigationMobileView(), desctopView: NavigationDesctopView());
   }
 }
 
