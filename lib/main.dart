@@ -20,9 +20,9 @@ class MainApp extends StatelessWidget{
       theme: ThemeData(
         primaryColor: Colors.deepPurple.shade400,
         visualDensity: VisualDensity.adaptivePlatformDensity,
-        fontFamily: 'raleway',
+        fontFamily: 'inter',
         textTheme: TextTheme(
-          displayLarge: TextStyle(fontSize: 60, fontWeight: FontWeight.w500, fontStyle: FontStyle.italic, color: Colors.white,), 
+          displayLarge: TextStyle(fontSize: 60, fontWeight: FontWeight.w300, fontStyle: FontStyle.italic, color: Colors.white,), 
           titleMedium: TextStyle(fontSize: 24, fontStyle: FontStyle.normal, color: Colors.black),
           bodyMedium: TextStyle(fontSize: 14, fontFamily: 'Hind', color: Colors.black),
         )
@@ -79,7 +79,7 @@ class _MainView extends State<MainView> with AfterLayoutMixin{
           controller: _scrollController,
           child: Column(
             children: [
-              HeaderView()
+              HeaderDesctopView()
             ],
           ),
         ),
